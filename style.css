@@ -1,0 +1,147 @@
+*{
+	font-family:arial,helvetica,sans-serif;
+	margin:0px;
+	box-sizing:border-box;
+}
+
+#LandOfDown {
+	width:100%;
+	height:708px;
+	
+}
+
+#Badang {
+	float:left;
+	width:35%;
+	height:90%;
+	padding: 8% 8% 8% 8%;
+	line-height:35px;
+}
+
+#Badang button{
+	border-radius:50px;
+	width:50%;
+	height:15%;
+background-color:#20baca;
+	color:white;
+}
+
+#Xborg{
+	float:left;
+	width:35%;
+	height:90%;
+
+}
+
+#Tigreal{
+	float:left;
+	width:100%;
+	height:50%;
+	padding: 8% 8% 8% 8%;
+	line-height:35px;
+	background-color:#bb843d;
+	color:white;
+}
+#Minotour{
+	float:left;
+	width:100%;
+	height:50%;
+	padding: 8% 8% 8% 8%;
+	line-height:35px;
+	background-color:#20baca;
+	color:white;
+}
+#Minotour button{
+	border-radius:50px;
+	width:32%;
+	height:24%;
+	background-color:white;
+	color:#20baca;
+}
+#Terizla{
+	float:left;
+	width:30%;
+	height:90%;
+	background-image: url("runrunrun.png");
+	background-size:100%100%;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+#AngelaTank{
+	float:left;
+	width:100%;
+	height:10.9%;
+	margin-top:1%;
+	padding-top:2%;
+	text-align:center;
+	background-color:black;
+	color:white;
+}
+
+@media screen and (max-width:800px){
+	
+#Badang{
+	width:100%;
+	height:50%;
+	line-height:28px;
+	
+}
+#Badang button{
+	width:20%;
+	height:20%;
+	
+}
+#Xborg{
+	width:50%;
+	height:50%;
+}
+
+#Tigreal{
+	width:100%;
+	height:80%;
+}
+#Minotour{
+	width:100%;
+	height:90%;
+}	
+#Terizla{
+	width:50%;
+	height:85%;
+}
+#AngelaTank{
+	padding-top:3.5%;
+}
+			
+}
+
+@media screen and (max-width:500px){
+#Badang{
+	width:100%
+}	
+#Badang button{
+	width:25%;
+	height:15%;
+	
+}
+#Xborg{
+	width:100%;
+	
+}
+#Tigreal{
+	width:100%;
+	height:50%;
+}
+#Minotour{
+	width:100%;
+	height:80%;
+}
+#Terizla{
+	width:100%;
+	height:50%;
+	margin-top:20%;
+}
+#AngelaTank{
+	padding-top:6%;
+}
+
+}
